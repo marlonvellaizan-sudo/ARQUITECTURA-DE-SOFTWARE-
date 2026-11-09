@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de componentes SGA" id="B5Oa4at8SuHIgy57zJW1">
+    <mxGraphModel dx="2086" dy="1257" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="light-dark(#ffffff, #121212)" backgroundGradient="light-dark(#FFFFFF,#000099)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-92" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=20;fontStyle=1;fontColor=#1F2937;" value="Figura 2. Diagrama de componentes del SGA" vertex="1">
+          <mxGeometry height="40" width="950" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-93" parent="1" style="shape=mxgraph.c4.person;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Cliente Web UI" vertex="1">
+          <mxGeometry height="75" width="180" x="730" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-94" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;spacingTop=12;fontSize=17;fontStyle=1;strokeWidth=2;strokeColor=#374151;fillColor=#F8FAFC;" value="Aplicación Web SGA&#xa;(Monolito Modular)" vertex="1">
+          <mxGeometry height="620" width="1390" x="180" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-95" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Autenticación /&#xa;Autorización" vertex="1">
+          <mxGeometry height="90" width="250" x="330" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-96" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=14;fontStyle=1;" value="Gestión Académica" vertex="1">
+          <mxGeometry height="90" width="250" x="700" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-97" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" value="Matrícula" vertex="1">
+          <mxGeometry height="90" width="250" x="1070" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" value="Calificaciones" vertex="1">
+          <mxGeometry height="90" width="250" x="310" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=14;fontStyle=1;" value="Reportes" vertex="1">
+          <mxGeometry height="90" width="250" x="700" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE5CD;strokeColor=#D79B00;fontSize=14;fontStyle=1;" value="Auditoría" vertex="1">
+          <mxGeometry height="90" width="250" x="1116" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-101" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7;strokeColor=#9673A6;fontSize=14;fontStyle=1;" value="Capa de Acceso a Datos" vertex="1">
+          <mxGeometry height="90" width="320" x="625" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-102" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=14;fontStyle=1;" value="Base de Datos" vertex="1">
+          <mxGeometry height="100" width="180" x="700" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-103" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#64748B;endArrow=open;endFill=0;fontSize=11;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-94" value="Consume API">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-104" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-105" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-106" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-107" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-108" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-109" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-110" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#9673A6;endArrow=open;endFill=0;fontSize=11;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-102" value="Persistencia">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-111" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#82B366;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-96" value="Valida datos del estudiante">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-112" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#82B366;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-97" value="Verifica matrícula">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-113" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#82B366;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-98" value="Consulta calificaciones">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-114" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#82B366;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-97" value="Consulta matrículas">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-115" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#D79B00;endArrow=open;endFill=0;fontSize=10;labelBackgroundColor=#FFFFFF;" target="_DvZobMM9doQ-Zl2FEw9-100" value="Registra eventos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-116" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#D79B00;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-100" value="Registra eventos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-117" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#D79B00;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-100" value="Registra eventos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-118" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#D79B00;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-100" value="Registra eventos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-119" edge="1" parent="1" source="_DvZobMM9doQ-Zl2FEw9-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;dashPattern=6 4;strokeWidth=1.5;strokeColor=#D79B00;endArrow=open;endFill=0;" target="_DvZobMM9doQ-Zl2FEw9-100" value="Registra eventos">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_DvZobMM9doQ-Zl2FEw9-120" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#4B5563;" value="L: Flecha discontinua = dependencia entre componentes.&lt;br&gt;Las dependencias funcionales representan el uso de servicios de otros módulos; las dependencias hacia Auditoría representan el registro de eventos." vertex="1">
+          <mxGeometry height="65" width="1100" x="270" y="1030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
